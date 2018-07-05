@@ -1,0 +1,84 @@
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.custom + label {
+    color: #8602C0;
+}
+
+.custom + label {
+  border: 1px;
+  background-color: #f1e5e6;
+  padding: 0;
+  position: relative;
+  height: 75px;
+  width: 500px;
+  display: block;
+}
+
+.custom:focus + label,
+.custom + label:hover {
+  border-color: #722040;
+}
+
+.custom + label span {
+  width: 71%;
+  height: 100px;
+  line-height: 75px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.custom + label strong {
+  height: 75px;
+  line-height: 75px;
+  color: #8602C0;
+  background-color: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25%;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.custom + label:hover strong {
+  background-color: #aa80ff;
+  cursor: pointer;
+}
+
+.custom + label:hover span {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 500px;
+  width: 500px;
+  height: 15px;
+  border: solid 0.5px #ffffff;
+  background-color: #bb99ff;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.89;
+  letter-spacing: normal;
+  text-align: left;
+  padding: 5px 5px 65px 5px;
+
+  :hover {
+    cursor: pointer
+  }
+}
